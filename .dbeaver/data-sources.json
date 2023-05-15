@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-1880a5da047-6dfbba528c24d27c": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "MyLocalLibrary2.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\d7435\\source\\repos\\Database2\\EntityFramework\\MyLocalLibrary2.db",
+				"url": "jdbc:sqlite:C:\\Users\\d7435\\source\\repos\\Database2\\EntityFramework\\MyLocalLibrary2.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Разработка",
+			"color": "255,255,255",
+			"description": "База данных для разработки",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
